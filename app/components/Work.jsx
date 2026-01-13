@@ -11,14 +11,21 @@ const Work = () => {
         Welcome to my web development portfolio! Explore a collection of
         projects showcasing my expertise in full-stack development.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 my-10 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-10 gap-5">
         {workData.map((project, index) => (
           <div
-            className="aspect-square border border-gray-400 shadow-sm bg-no-repeat  bg-contain bg-center rounded-lg relative cursor-pointer"
+            // className="aspect-square border border-gray-400 shadow-sm bg-no-repeat  bg-contain bg-center rounded-lg relative cursor-pointer"
+  className="
+    border border-gray-300 shadow-sm rounded-xl relative cursor-pointer
+    w-full
+    h-[220px] sm:h-[240px] md:h-[260px] lg:h-[280px]
+    bg-no-repeat bg-cover bg-center
+    transition hover:scale-[1.01] 
+  "
             key={index}
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
-            <div className="bg-white w-10/12 rounded-md absolute gap-2 bottom-5 left-1/2 -translate-x-1/2 py-3 px-3 flex flex-col items-center justify-center">
+            <div className="bg-teal-500 w-10/12 rounded-md absolute gap-2 bottom-5 left-1/2 -translate-x-1/2 py-3 px-3 flex flex-col items-center justify-center">
               <div className="">
                 <h2 className="font-semibold text-sm w-full">
                   {project.title}

@@ -88,10 +88,16 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Workout buddy",
-    bgImage: "/work-1.jpeg",
-    github: "https://github.com/rishavkumarnit/workout-client",
-    live: "https://workout-client-sandy.vercel.app/",
+    title: "sales-crm-management",
+    bgImage: "/sales-crm-management-frontend.png",
+    github: "https://github.com/rishavkumarnit/sales-crm-management-frontend",
+    live: "https://management-frontend-nine.vercel.app/dashboard",
+  },
+    {
+    title: "sales-crm-user",
+    bgImage: "/sales-crm-user-frontend.png",
+    github: "https://github.com/rishavkumarnit/sales-crm-user-frontend",
+    live: "https://user-frontend-eta.vercel.app/dashboard",
   },
   {
     title: "Pocket notes",

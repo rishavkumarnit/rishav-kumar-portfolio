@@ -30,7 +30,7 @@ const Header = () => {
           ></Image>
         </a>
         <a
-          href="/RishavResume.pdf"
+          href="/SWE_Resume_Rishav.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 items-center flex items gap-2"
         >
